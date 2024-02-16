@@ -21,7 +21,7 @@ object 运算符 {
 
     println(7.5 toString)
     //转换为Int再转换为string
-    println(7.5 toInt toString)
+    //println(7.5 toInt toString)
     println(7.5.toString)
 
   }
