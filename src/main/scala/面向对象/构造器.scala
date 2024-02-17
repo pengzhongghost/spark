@@ -5,6 +5,8 @@ object 构造器 {
   def main(args: Array[String]): Unit = {
     val student1 = new Student1()
     val student2 = new Student1("bob", 18)
+    val student3 = new Student2("alice", 20)
+    println(student3.name)
   }
 
 }
@@ -28,5 +30,13 @@ class Student1() {
     println("3. 辅助构造方法二被调用")
     this.age = age
   }
+
+}
+
+//上面的定义等价于
+class Student2(var name: String, var age: Int)
+
+//主构造器参数无修饰var，val，则只是形参
+class Student3(name: String, age: Int) {
 
 }
