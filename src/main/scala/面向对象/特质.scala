@@ -71,6 +71,8 @@ class Student5 extends Person with Young {
   }
 
   override def init(): Unit = super.init()
+  //只会调用指定的父类和自己的方法拼接
+  //override def init(): Unit = super[Person].init()
 
 }
 
