@@ -24,7 +24,7 @@ object TestApp extends App {
   println("hello,world!")
 
   type MyString = String
-  val a:MyString = "abc"
+  val a: MyString = "abc"
   println(a)
 
 }
