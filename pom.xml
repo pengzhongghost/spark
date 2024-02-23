@@ -34,6 +34,18 @@
             <artifactId>spark-sql_2.12</artifactId>
             <version>3.0.1</version>
         </dependency>
+
+        <!--spark-streaming-kafka -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-10_2.12</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.10.1</version>
+        </dependency>
     </dependencies>
 
 </project>
